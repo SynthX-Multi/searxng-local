@@ -1,0 +1,15 @@
+# Secrets and local config
+.env
+core-config/settings.yml
+core-config/*.toml
+
+# Personal data, cookies, exports, logs
+data.json
+*.cookies
+cookies*.txt
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
